@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Menu T2B</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_detalhe">Detalhe</string>
+    <string name="button_save">Salvar</string>
+    <string name="empty_not_saved">Nao foi salvo porque esta vazio.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_drawer">Menu T2B</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Menu T2B</string>
+    <string name="nav_header_subtitle">jjgomez2k@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="menu_home">Entradas</string>
+    <string name="menu_gallery">Principal</string>
+    <string name="menu_slideshow">Sobremesas</string>
+
+    <string name="home_second">Entradas</string>
+    <string name="next">Proximo</string>
+    <string name="previous">Voltar</string>
+    <string name="hello_home_second">Hello HomeSecondFragment. Arg: %1$s</string>
+    <string name="hello_gallery_second">Hello GallerySecondFragment. Arg: %1$s</string>
+    <string name="hello_slideshow_second">Hello SlideshowSecondFragment. Arg: %1$s</string>
+    <string name="currency">￥ </string>
+
+
+    <string name="entrada_es_textView2">Entrada numero 1</string>
+    <string name="entrada_es_textView3">Entrada numero 2</string>
+    <string name="entrada_es_textView4">Entrada numero 3</string>
+    <string name="entrada_es_textView5">Entrada numero 4</string>
+    <string name="entrada_es_textView6">Entrada numero 5</string>
+    <string name="entrada_es_textView7">Entrada numero 6</string>
+
+    <string name="entrada_preco_textView2">￥ 2990</string>
+    <string name="entrada_preco_textView3">￥ 1290</string>
+    <string name="entrada_preco_textView4">￥ 1590</string>
+    <string name="entrada_preco_textView5">￥ 3590</string>
+    <string name="entrada_preco_textView6">￥ 499</string>
+    <string name="entrada_preco_textView7">￥ 199</string>
+
+    <string name="principal_es_textView2">principal numero 1</string>
+    <string name="principal_es_textView3">principal numero 2</string>
+    <string name="principal_es_textView4">principal numero 3</string>
+    <string name="principal_es_textView5">principal numero 4</string>
+    <string name="principal_es_textView6">principal numero 5</string>
+    <string name="principal_es_textView7">principal numero 6</string>
+
+    <string name="principal_preco_textView2">￥ 2990</string>
+    <string name="principal_preco_textView3">￥ 1290</string>
+    <string name="principal_preco_textView4">￥ 1590</string>
+    <string name="principal_preco_textView5">￥ 3590</string>
+    <string name="principal_preco_textView6">￥ 499</string>
+    <string name="principal_preco_textView7">￥ 199</string>
+
+    <string name="button_entrada_fazerpedido">Adicionar ao Pedido</string>
+
+    <string name="sobremesas_es_textView2">sobremesas numero 1</string>
+    <string name="sobremesas_es_textView3">sobremesas numero 2</string>
+    <string name="sobremesas_es_textView4">sobremesas numero 3</string>
+    <string name="sobremesas_es_textView5">sobremesas numero 4</string>
+    <string name="sobremesas_es_textView6">sobremesas numero 5</string>
+    <string name="sobremesas_es_textView7">sobremesas numero 6</string>
+
+    <string name="sobremesas_preco_textView2">￥ 2990</string>
+    <string name="sobremesas_preco_textView3">￥ 1290</string>
+    <string name="sobremesas_preco_textView4">￥ 1590</string>
+    <string name="sobremesas_preco_textView5">￥ 3590</string>
+    <string name="sobremesas_preco_textView6">￥ 499</string>
+    <string name="sobremesas_preco_textView7">￥ 199</string>
+
+
+</resources>

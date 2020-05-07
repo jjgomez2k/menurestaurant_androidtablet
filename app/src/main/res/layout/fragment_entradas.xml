@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.entradas.EntradasSecondFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewEntradas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/entradas_item" />
+
+    <Button
+        android:id="@+id/button_home_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        android:translationX="467sp"
+        android:translationY="470sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

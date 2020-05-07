@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.menuv01.ui.entradas.EntradasFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.menuv01.ui.entradas.EntradasSecondFragment"
+        android:label="@string/home_second"
+
+        tools:layout="@layout/fragment_entradas">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_nav_home_second_to_homeSecondFragmentDetail2"
+            app:destination="@id/homeSecondFragmentDetail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.menuv01.ui.principal.PrincipalFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_principal">
+        <action
+            android:id="@+id/action_nav_gallery_to_galleryFragmentDetail"
+            app:destination="@id/galleryFragmentDetail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.menuv01.ui.sobremesas.SobremesasFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_sobremesas">
+        <action
+            android:id="@+id/action_nav_slideshow_to_sobremesasFragmentDetail"
+            app:destination="@id/sobremesasFragmentDetail" />
+    </fragment>
+    <activity
+        android:id="@+id/homeSecondFragmentDetail"
+        android:name="com.example.menuv01.ui.entradas.EntradasSecondFragmentDetail"
+        android:label="activity_home_second_fragment_detail"
+        tools:layout="@layout/activity_entradas_fragment_detail" />
+    <activity
+        android:id="@+id/galleryFragmentDetail"
+        android:name="com.example.menuv01.ui.principal.PrincipalFragmentDetail"
+        android:label="gallery_fragment_detail"
+        tools:layout="@layout/fragment_principal_detail" />
+    <activity
+        android:id="@+id/sobremesasFragmentDetail"
+        android:name="com.example.menuv01.ui.sobremesas.SobremesasFragmentDetail"
+        android:label="activity_slideshow_fragment_detail"
+        tools:layout="@layout/activity_sobremesas_fragment_detail" />
+
+</navigation>

@@ -1,0 +1,42 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Dark theme base colours -->
+        <item name="colorPrimary">@color/buttonLabel</item>
+        <item name="colorPrimaryDark">#676767</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/darkColorAccent</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DefaultRecyclerViewStyle">
+
+        <item name="layoutManager">androidx.recyclerview.widget.GridLayoutManager</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/backgroundRecyclerView</item>
+        <item name="spanCount">2</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <style name="Theme.MaterialButton" parent="AppTheme">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="myButtonTheme" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/buttonLabel</item>
+        <item name="colorButtonNormal">@color/darkColorAccent</item>
+    </style>
+</resources>

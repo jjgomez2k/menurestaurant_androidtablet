@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:id="@+id/layout_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="2">
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_cart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_placeorder"
+        android:layout_below="@+id/layout_total" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/recycler_cart"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="Total : "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_total_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/recycler_cart"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:text="@string/currency"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_placeorder"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:onClick="insertOrder"
+        android:text="Confirmar pedido"
+        android:textColor="@android:color/white"
+        android:theme="@style/myButtonTheme" />
+
+</RelativeLayout>
